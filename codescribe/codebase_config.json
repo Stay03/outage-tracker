@@ -1,0 +1,22 @@
+{
+    "ignore_patterns": ["package-lock.json","README.md", ".vscode", "codescribe", "env", "venv", ".git", "codebase_snapshot.md", "node_modules", "public"],
+    "ignore_extensions": [".log", ".tmp", ".gitignore"],
+    "list_only_extensions": [".png",".jpg",".jpeg",".gif",".ico",".svg",".db",".sqlite",".pdf",".zip"],
+    "max_file_size_mb": 5,
+    "list_only_paths": [
+        "src"
+    ],
+    "include_paths": [
+
+       
+        "src/components/OutageCalendar.jsx",
+        "src/components/OutageDay.jsx",
+        "src/components/OutageForm.jsx",
+        "src/components/OutageStats.jsx",
+        "src/utils/outageUtils.js",
+        "src/App.js"
+
+
+
+    ]
+}
